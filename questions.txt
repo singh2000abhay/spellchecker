@@ -1,0 +1,14 @@
+0.  Pneumonoultramicroscopicsilicovolcanoconiosis (Listeni/njuːˌmɒnoʊˌʌltrəˌmaɪkrəˈskɒpɪkˌsɪlɪkoʊvɒlˌkeɪnoʊˌkɒnaɪˈoʊsᵻs/[1][2]) is an English word that refers to a lung disease that is otherwise known as silicosis. It is the longest word in the English language published in a dictionary, the Oxford English Dictionary, which defines it as "an artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust."[3]
+1.  getrusage() returns resource usage measures
+2.  16
+3.  The usage expects a pointer. Also, making a copied value would take considerably more time and data.
+4.  To initialize, it gets the first character of the file; moving the first cursor to the right as it does so If this first 
+    character is an alphabet or an apostrophe, then it would copy this character into the index'th index of the array.
+    The index is then increased and it moves onto the next character to copy, repeating until it is no longer alphanumeric (and
+    therefore a complete word). It then puts the last index of the array as \0, to indicate that the word has terminated.
+    It then adds 1 to the amount of words counted and thereafter calls upon the check() function, to determine if the word is
+    misspelled or not. If it is misspelled, then it adds one to the misspelled count. It also resets the index counter for the word
+    array. In the cases of a digit or too long of a word, the for loop consumes the remainder of the word and moves onto the next
+    word. This ensure that the loop only works on words and nothing else.
+5.  fscanf may allow for erroneous characters in the string.
+6.  To ensure they do not change.
